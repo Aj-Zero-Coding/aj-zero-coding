@@ -8,7 +8,7 @@ Deploy your own Docusaurus project with Vercel.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/docusaurus-2&template=docusaurus-2)
 
-_Live Example: https://docusaurus-2-template.vercel.app_
+_Live Example: https://aj-zero-coding.vercel.app/_
 
 ### How We Created This Example
 
