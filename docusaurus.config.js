@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: 'Aj Zero Coding',
-    tagline: 'Dinosaurs are cool',
+    tagline: 'Be a good learner',
     url: 'https://aj-zero-coding.vercel.app/',
     baseUrl: '/',
     onBrokenLinks: 'throw',
