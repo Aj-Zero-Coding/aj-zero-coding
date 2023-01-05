@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'Aj Zero Coding',
-    tagline: 'Be a good learner',
+    title: 'AJ ZERO CODING',
+    tagline: 'BE A GOOD LEARNER',
     url: 'https://aj-zero-coding.vercel.app/',
     baseUrl: '/',
     onBrokenLinks: 'throw',
@@ -17,7 +17,7 @@ const config = {
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
     organizationName: 'facebook', // Usually your GitHub org/user name.
-    projectName: 'docusaurus', // Usually your repo name.
+    projectName: 'aj-zero-coding', // Usually your repo name.
 
     // Even if you don't use internalization, you can use this field to set useful
     // metadata like html lang. For example, if your site is Chinese, you may want
