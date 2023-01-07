@@ -1,51 +1,51 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'AJ ZERO CODING',
-    tagline: 'BE A GOOD LEARNER',
-    url: 'https://aj-zero-coding.vercel.app/',
-    baseUrl: '/',
-    onBrokenLinks: 'throw',
-    onBrokenMarkdownLinks: 'warn',
-    favicon: 'img/favicon.ico',
+    title: "AJ ZERO CODING",
+    tagline: "BE A GOOD LEARNER",
+    url: "https://aj-zero-coding.vercel.app/",
+    baseUrl: "/",
+    onBrokenLinks: "throw",
+    onBrokenMarkdownLinks: "warn",
+    favicon: "img/favicon.ico",
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'facebook', // Usually your GitHub org/user name.
-    projectName: 'aj-zero-coding', // Usually your repo name.
+    organizationName: "facebook", // Usually your GitHub org/user name.
+    projectName: "aj-zero-coding", // Usually your repo name.
 
     // Even if you don't use internalization, you can use this field to set useful
     // metadata like html lang. For example, if your site is Chinese, you may want
     // to replace "en" with "zh-Hans".
     i18n: {
-        defaultLocale: 'en',
-        locales: ['en'],
+        defaultLocale: "en",
+        locales: ["en"],
     },
 
     presets: [
         [
-            'classic',
+            "classic",
             /** @type {import('@docusaurus/preset-classic').Options} */
             ({
                 docs: {
-                    sidebarPath: require.resolve('./sidebars.js'),
+                    sidebarPath: require.resolve("./sidebars.js"),
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
-                    editUrl: 'https://github.com/Ajay-Dhangar/aj-zero-coding',
+                    editUrl: "https://github.com/Ajay-Dhangar/aj-zero-coding",
                 },
                 blog: {
                     showReadingTime: true,
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
-                    editUrl: 'https://github.com/Ajay-Dhangar/aj-zero-coding',
+                    editUrl: "https://github.com/Ajay-Dhangar/aj-zero-coding",
                 },
                 theme: {
-                    customCss: require.resolve('./src/css/custom.css'),
+                    customCss: require.resolve("./src/css/custom.css"),
                 },
             }),
         ],
@@ -55,59 +55,59 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
         navbar: {
-            title: 'Aj Zero Coding',
+            title: "Aj Zero Coding",
             logo: {
-                alt: 'My Site Logo',
-                src: 'img/logo.svg',
+                alt: "My Site Logo",
+                src: "img/logo.svg",
             },
             items: [{
-                    type: 'doc',
-                    docId: 'intro',
-                    position: 'left',
-                    label: 'Tutorial',
+                    type: "doc",
+                    docId: "intro",
+                    position: "left",
+                    label: "Tutorial",
                 },
-                { to: '/blog', label: 'Blog', position: 'left' },
+                { to: "/blog", label: "Blog", position: "left" },
                 {
-                    href: 'https://github.com/Ajay-Dhangar/aj-zero-coding',
-                    label: 'GitHub',
-                    position: 'right',
+                    href: "https://github.com/Ajay-Dhangar/aj-zero-coding",
+                    label: "GitHub",
+                    position: "right",
                 },
             ],
         },
         footer: {
-            style: 'dark',
+            style: "dark",
             links: [{
-                    title: 'Docs',
+                    title: "Docs",
                     items: [{
-                        label: 'Tutorial',
-                        to: '/docs/intro',
+                        label: "Tutorial",
+                        to: "./docs",
                     }, ],
                 },
                 {
-                    title: 'Community',
+                    title: "Community",
                     items: [{
-                            label: 'Stack Overflow',
-                            href: 'https://stackoverflow.com/users/18530900/ajay-dhangar',
+                            label: "Stack Overflow",
+                            href: "https://stackoverflow.com/users/18530900/ajay-dhangar",
                         },
                         {
-                            label: 'Discord',
-                            href: 'https://discord.gg/2fXs7d32',
+                            label: "Discord",
+                            href: "https://discord.gg/2fXs7d32",
                         },
                         {
-                            label: 'Twitter',
-                            href: 'https://twitter.com/AJAYDHA27250016',
+                            label: "Twitter",
+                            href: "https://twitter.com/AJAYDHA27250016",
                         },
                     ],
                 },
                 {
-                    title: 'More',
+                    title: "More",
                     items: [{
-                            label: 'Blog',
-                            to: '/blog',
+                            label: "Blog",
+                            to: "/blog",
                         },
                         {
-                            label: 'GitHub',
-                            href: 'https://github.com/Ajay-Dhangar',
+                            label: "GitHub",
+                            href: "https://github.com/Ajay-Dhangar",
                         },
                     ],
                 },
