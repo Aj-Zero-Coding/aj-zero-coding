@@ -7,7 +7,7 @@ sidebar_position: 1
 React is one of the maximum popular front-stop frameworks these days, which masses of human beings find useful to study. <br>
 Building your first React.Js application.<br>
 In this article, I’m going to create an easy React.Js application with step by step.<br>
-To create this software, it'd be a plus to have fundamentals of React.Js, Javascript, HTML, and CSS. 
+To create this software, it'd be a plus to have fundamentals of React.Js, Javascript, HTML, and CSS.
 
 ## Create your first React app
 
@@ -21,7 +21,7 @@ To create this software, it'd be a plus to have fundamentals of React.Js, Javasc
 
 **Step-2:** Open path of my-app
 
-``cd react-app``
+`cd react-app`
 
 ![path of my-app](https://user-images.githubusercontent.com/99037494/210758109-77e651bb-e4cc-4391-ae02-3aa221fbd956.png)
 

@@ -6,118 +6,124 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: "AJ ZERO CODING",
-    tagline: "BE A GOOD LEARNER",
-    url: "https://aj-zero-coding.vercel.app/",
-    baseUrl: "/",
-    onBrokenLinks: "throw",
-    onBrokenMarkdownLinks: "warn",
-    favicon: "img/favicon.ico",
+  title: "AJ ZERO CODING",
+  tagline: "BE A GOOD LEARNER",
+  url: "https://aj-zero-coding.vercel.app/",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
 
-    // GitHub pages deployment config.
-    // If you aren't using GitHub pages, you don't need these.
-    organizationName: "facebook", // Usually your GitHub org/user name.
-    projectName: "aj-zero-coding", // Usually your repo name.
+  // GitHub pages deployment config.
+  // If you aren't using GitHub pages, you don't need these.
+  organizationName: "facebook", // Usually your GitHub org/user name.
+  projectName: "aj-zero-coding", // Usually your repo name.
 
-    // Even if you don't use internalization, you can use this field to set useful
-    // metadata like html lang. For example, if your site is Chinese, you may want
-    // to replace "en" with "zh-Hans".
-    i18n: {
-        defaultLocale: "en",
-        locales: ["en"],
-    },
+  // Even if you don't use internalization, you can use this field to set useful
+  // metadata like html lang. For example, if your site is Chinese, you may want
+  // to replace "en" with "zh-Hans".
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en"],
+  },
 
-    presets: [
-        [
-            "classic",
-            /** @type {import('@docusaurus/preset-classic').Options} */
-            ({
-                docs: {
-                    sidebarPath: require.resolve("./sidebars.js"),
-                    // Please change this to your repo.
-                    // Remove this to remove the "edit this page" links.
-                    editUrl: "https://github.com/Ajay-Dhangar/aj-zero-coding",
-                },
-                blog: {
-                    showReadingTime: true,
-                    // Please change this to your repo.
-                    // Remove this to remove the "edit this page" links.
-                    editUrl: "https://github.com/Ajay-Dhangar/aj-zero-coding",
-                },
-                theme: {
-                    customCss: require.resolve("./src/css/custom.css"),
-                },
-            }),
-        ],
+  presets: [
+    [
+      "classic",
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
+        docs: {
+          sidebarPath: require.resolve("./sidebars.js"),
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl: "https://github.com/Ajay-Dhangar/aj-zero-coding",
+        },
+        blog: {
+          showReadingTime: true,
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl: "https://github.com/Ajay-Dhangar/aj-zero-coding",
+        },
+        theme: {
+          customCss: require.resolve("./src/css/custom.css"),
+        },
+      }),
     ],
+  ],
 
-    themeConfig:
+  themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-        ({
-        navbar: {
-            title: "Aj Zero Coding",
-            logo: {
-                alt: "My Site Logo",
-                src: "img/logo.svg",
-            },
-            items: [{
-                    type: "doc",
-                    docId: "intro",
-                    position: "left",
-                    label: "Tutorial",
-                },
-                { to: "/blog", label: "Blog", position: "left" },
-                {
-                    href: "https://github.com/Ajay-Dhangar/aj-zero-coding",
-                    label: "GitHub",
-                    position: "right",
-                },
+    ({
+      navbar: {
+        title: "Aj Zero Coding",
+        logo: {
+          alt: "My Site Logo",
+          src: "img/logo.svg",
+        },
+        items: [
+          {
+            type: "doc",
+            docId: "intro",
+            position: "left",
+            label: "Tutorial",
+          },
+          { to: "/blog", label: "Blog", position: "left" },
+          {
+            href: "https://github.com/Ajay-Dhangar/aj-zero-coding",
+            label: "GitHub",
+            position: "right",
+          },
+        ],
+      },
+      footer: {
+        style: "dark",
+        links: [
+          {
+            title: "Docs",
+            items: [
+              {
+                label: "Tutorial",
+                to: "./docs",
+              },
             ],
-        },
-        footer: {
-            style: "dark",
-            links: [{
-                    title: "Docs",
-                    items: [{
-                        label: "Tutorial",
-                        to: "./docs",
-                    }, ],
-                },
-                {
-                    title: "Community",
-                    items: [{
-                            label: "Stack Overflow",
-                            href: "https://stackoverflow.com/users/18530900/ajay-dhangar",
-                        },
-                        {
-                            label: "Discord",
-                            href: "https://discord.gg/2fXs7d32",
-                        },
-                        {
-                            label: "Twitter",
-                            href: "https://twitter.com/AJAYDHA27250016",
-                        },
-                    ],
-                },
-                {
-                    title: "More",
-                    items: [{
-                            label: "Blog",
-                            to: "/blog",
-                        },
-                        {
-                            label: "GitHub",
-                            href: "https://github.com/Ajay-Dhangar",
-                        },
-                    ],
-                },
+          },
+          {
+            title: "Community",
+            items: [
+              {
+                label: "Stack Overflow",
+                href: "https://stackoverflow.com/users/18530900/ajay-dhangar",
+              },
+              {
+                label: "Discord",
+                href: "https://discord.gg/2fXs7d32",
+              },
+              {
+                label: "Twitter",
+                href: "https://twitter.com/AJAYDHA27250016",
+              },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} Aj Zero Coding, Inc. Made with ❤️ by Ajay-Dhangar.`,
-        },
-        prism: {
-            theme: lightCodeTheme,
-            darkTheme: darkCodeTheme,
-        },
+          },
+          {
+            title: "More",
+            items: [
+              {
+                label: "Blog",
+                to: "/blog",
+              },
+              {
+                label: "GitHub",
+                href: "https://github.com/Ajay-Dhangar",
+              },
+            ],
+          },
+        ],
+        copyright: `Copyright © ${new Date().getFullYear()} Aj Zero Coding, Inc. Made with ❤️ by Ajay-Dhangar.`,
+      },
+      prism: {
+        theme: lightCodeTheme,
+        darkTheme: darkCodeTheme,
+      },
     }),
 };
 
