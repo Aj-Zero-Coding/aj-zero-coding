@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# React Js app
+# Create React Js app
 
 ## React.Js
 
